@@ -10,6 +10,10 @@
   "author": "Complexlity",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Complexlity/eslint-plugin-evm-address-to-checksummed"
+},
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
