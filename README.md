@@ -2,6 +2,8 @@
 
 This plugin converts all evm addresses to their checksummed version
 
+Test it on [Stackblitz](https://stackblitz.com/edit/node-w37mw5?file=src%2Findex.js)
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
