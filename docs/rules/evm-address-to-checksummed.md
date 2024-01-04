@@ -14,7 +14,8 @@ Examples of **incorrect** code for this rule:
 
 ```js
 
-const a
+let unCheckSummedAddress1 = '0xaaa6bf7f35f1cb1afb9f5375e363140c9b197274';
+let unCheckSummedAddress2 = '0x4c906d3ecfae8a4cc21edf7e7a17dbd5b38d41fd';
 
 ```
 
@@ -23,17 +24,17 @@ Examples of **correct** code for this rule:
 ```js
 
 // fill me in
+let correctlyCheckSummedAddress1 = "0xAaa6Bf7F35f1CB1AFb9f5375E363140C9B197274"
+let corrctlyCheckSummedAddress2 = "0x4c906D3EcFaE8A4cC21Edf7E7A17dBd5B38D41fd"
 
 ```
 
 ### Options
 
-If there are any options, describe them here. Otherwise, delete this section.
 
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
+When you don't want checksummed addresses
 
 ## Further Reading
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
