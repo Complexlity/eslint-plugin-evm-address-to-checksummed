@@ -45,9 +45,10 @@ Then configure the rules you want to use under the rules section.
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                                   | Description                                                  | 🔧 |
-| :--------------------------------------------------------------------- | :----------------------------------------------------------- | :- |
-| [evm-address-to-checksummed](docs/rules/evm-address-to-checksummed.md) | This converts valid evm addresses to the checksummed version | 🔧 |
+| Name                                                                   | Description                                                                               | 🔧 |
+| :--------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :- |
+| [case-typo-in-evm-address](docs/rules/case-typo-in-evm-address.md)     | This rule checks if the address is close to validity (invalid due to incorrect uppercase) | 🔧 |
+| [evm-address-to-checksummed](docs/rules/evm-address-to-checksummed.md) | This converts valid evm addresses to the checksummed version                              | 🔧 |
 
 <!-- end auto-generated rules list -->
 

@@ -1,4 +1,8 @@
-# This rule checks if the address is close to validity (invalid due to incorrect uppercase) (`case-typo-in-evm-address`)
+# This rule checks if the address is close to validity (invalid due to incorrect uppercase) (`evm-address-to-checksummed/case-typo-in-evm-address`)
+
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+
+<!-- end auto-generated rule header -->
 
 Please describe the origin of the rule here.
 
