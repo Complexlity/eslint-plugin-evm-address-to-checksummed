@@ -41,6 +41,16 @@ Then configure the rules you want to use under the rules section.
 
 ## Rules
 
+There are two rules:
+1. `case-typo-in-evm-address`
+2. `evm-address-to-checksummed`
+
+The reason for rule 1 is, some address can invalid due to uppercase values in incorrect place (could be due to invalid checksumming or just a typo). This would not hit the rule 2 (main) rule as that rule only seeks to lint valid address.
+
+This ensures flexibily as that function can be disabled at will rather than bundling both functions in a single rule
+
+
+
 <!-- begin auto-generated rules list -->
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
