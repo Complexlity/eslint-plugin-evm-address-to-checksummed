@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-evm-address-to-checksummed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugin converts all evm addresses to their checksummed version",
   "keywords": [
     "eslint",
