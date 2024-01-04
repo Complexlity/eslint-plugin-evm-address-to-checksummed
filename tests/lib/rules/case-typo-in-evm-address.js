@@ -21,7 +21,9 @@ ruleTester.run("case-typo-in-evm-address", rule, {
   valid: [
     // give me some code that won't trigger a warning
     'var validAddress = "0x468d07ef902c4f4d6c524f7665b36d2d4b3e8993"',
-    'var checkSummedAddress = "0x99C0C7a663ee06643fe876bBE468e878304518ed"'
+    'var checkSummedAddress = "0x99C0C7a663ee06643fe876bBE468e878304518ed"',
+    'var notValidAddress = "hello world"',
+    'var notString = 24',
   ],
 
   invalid: [
