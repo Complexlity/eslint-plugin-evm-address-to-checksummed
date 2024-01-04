@@ -22,7 +22,8 @@ ruleTester.run("evm-address-to-checksummed", rule, {
     // give me some code that won't trigger a warning
     'var checkSummedaddress = "0x468D07eF902C4F4D6c524F7665B36D2d4b3E8993"',
     'var invalidAddress = "0x99c0c7a663ee06643fe876bbe468e878318ed"',
-    'var notAddress = "hello world"'
+    'var notAddress = "hello world"',
+    'valueInvalidCheckSummedAddress = "0x5f38dA95f1d53c5efd0246Efb03ae9ba72b60b51"'
   ],
 
   invalid: [
