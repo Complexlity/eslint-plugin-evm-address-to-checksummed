@@ -5,6 +5,8 @@ module.exports = {
   plugins: ['evm-address-to-checksummed'],
   rules: {
     "evm-address-to-checksummed/evm-address-to-checksummed": "error",
+    "evm-address-to-checksummed/case-typo-in-evm-address": "error"
+
   },
   extends: [
     "eslint:recommended",
