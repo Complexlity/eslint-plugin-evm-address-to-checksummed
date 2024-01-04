@@ -26,13 +26,13 @@ ruleTester.run("case-typo-in-evm-address", rule, {
 
   invalid: [
     {
-      code: "var wronglyCheckSummedAddress = \"0x5f38dA95f1d53c5efd0246Efb03ae9ba72b60b51\"",
-      output: "var wronglyCheckSummedAddress = \"0x5f38da95f1d53c5eFd0246EFb03ae9Ba72B60b51\"",
+      code: "var wronglyCheckSummedAddress1 = \"0x5f38dA95f1d53c5efd0246Efb03ae9ba72b60b51\"",
+      output: "var wronglyCheckSummedAddress2 = \"0x5f38da95f1d53c5eFd0246EFb03ae9Ba72B60b51\"",
       errors: [{ message: "There seems to be a typo in the address"}],
     },
     {
-      code: "var wronglyCheckSummedAddress = \"0x152cdf5aE4312b8a9B862237834775a381883B73\"",
-      output: "var wronglyCheckSummedAddress = \"0x152cDf5AE4312B8A9b862237834775A381883b73\"",
+      code: "var wronglyCheckSummedAddress1 = \"0x152cdf5aE4312b8a9B862237834775a381883B73\"",
+      output: "var wronglyCheckSummedAddress2 = \"0x152cDf5AE4312B8A9b862237834775A381883b73\"",
       errors: [{ message: "There seems to be a typo in the address"}],
     },
   ],
